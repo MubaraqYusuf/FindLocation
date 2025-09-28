@@ -1,12 +1,10 @@
-# FindLocation Android App 📍🗺️
+# FindLocation Android App 
 
 This is a simple Android application that demonstrates how to retrieve the device's last known location and display its latitude, longitude, country name, locality, and full address.
 
 ##📸 Screenshot
 
-_Coming Soon! Add your screenshot here:_
-`![FindLocation App Screenshot](screenshots/app_screenshot.png)`
-_(Remember to replace `screenshots/app_screenshot.png` with the actual path to your screenshot after adding it to a `screenshots` folder in your project root.)_
+<img width="477" height="932" alt="Screenshot 2025-09-28 155527" src="https://github.com/user-attachments/assets/eaa2e673-7351-408e-98f1-0aa26fb2183b" />
 
 ## ✨ Features
 
