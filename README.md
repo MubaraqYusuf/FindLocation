@@ -2,7 +2,7 @@
 
 This is a simple Android application that demonstrates how to retrieve the device's last known location and display its latitude, longitude, country name, locality, and full address.
 
-##📸 Screenshot
+## 📸 Screenshot
 
 <img width="477" height="932" alt="Screenshot 2025-09-28 155527" src="https://github.com/user-attachments/assets/eaa2e673-7351-408e-98f1-0aa26fb2183b" />
 
