@@ -1,4 +1,4 @@
-# FindLocation Android App 
+# FindLocation Android App 📍🗺️
 
 This is a simple Android application that demonstrates how to retrieve the device's last known location and display its latitude, longitude, country name, locality, and full address.
 
