@@ -1,38 +1,43 @@
-# FindLocation Android App
+# FindLocation Android App 📍🗺️
 
 This is a simple Android application that demonstrates how to retrieve the device's last known location and display its latitude, longitude, country name, locality, and full address.
 
-## Features
+##📸 Screenshot
 
-*   Requests location permission from the user.
-*   Fetches the last known location using the FusedLocationProviderClient.
-*   Uses Geocoder to convert latitude and longitude into a human-readable address.
-*   Displays the following information:
-    *   Latitude
-    *   Longitude
-    *   Country Name
-    *   Locality
-    *   Full Address
+_Coming Soon! Add your screenshot here:_
+`![FindLocation App Screenshot](screenshots/app_screenshot.png)`
+_(Remember to replace `screenshots/app_screenshot.png` with the actual path to your screenshot after adding it to a `screenshots` folder in your project root.)_
 
-## How it Works
+## ✨ Features
 
-1.  **Permission Check:** When the "Get Location" button is clicked, the app first checks if the `ACCESS_FINE_LOCATION` permission has been granted.
+*   🛡️ Requests location permission from the user.
+*   🛰️ Fetches the last known location using the `FusedLocationProviderClient`.
+*   🗺️ Uses `Geocoder` to convert latitude and longitude into a human-readable address.
+*   📱 Displays the following information:
+    *   **Latitude:** `[value]`
+    *   **Longitude:** `[value]`
+    *   **Country Name:** `[Country]`
+    *   **Locality:** `[City/Area]`
+    *   **Full Address:** `[Street Address]`
+
+## ⚙️ How it Works
+
+1.  **Permission Check:** When the "Get Location"  बटन is clicked, the app first checks if the `ACCESS_FINE_LOCATION` permission has been granted.
 2.  **Permission Request:** If the permission is not granted, it requests the permission from the user.
 3.  **Location Fetching:** If the permission is granted, the app uses `FusedLocationProviderClient.getLastLocation()` to retrieve the most recent known location of the device.
 4.  **Geocoding:** Once the `Location` object is obtained, `Geocoder.getFromLocation()` is used to get a list of addresses corresponding to the latitude and longitude.
-5.  **Display:** The relevant address details (latitude, longitude, country, locality, and full address line) are then displayed in their respective TextViews.
+5.  **Display:** The relevant address details are then displayed in their respective TextViews.
 
-## Dependencies
+## 🧱 Dependencies
 
 The project utilizes the following key libraries:
 
 *   `androidx.appcompat:appcompat` - For backward compatibility of newer Android features.
-*   `androidx.core:core-ktx` - Kotlin extensions for Android core libraries (although the current code is in Java, this is a common dependency).
-*   `com.google.android.gms:play-services-location` - For accessing location services provided by Google Play Services.
-*   `androidx.constraintlayout:constraintlayout` - For building flexible and responsive layouts.
-*   `com.google.android.material:material` - For implementing Material Design components.
+*   `com.google.android.gms:play-services-location` (for location services)
+*   `androidx.constraintlayout:constraintlayout` - For building flexible layouts.
+*   `com.google.android.material:material` - For Material Design components.
 
-## Setup and Installation
+## 🚀 Setup and Installation
 
 1.  Clone the repository:
     
