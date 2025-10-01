@@ -37,5 +37,5 @@ The project utilizes the following key libraries:
 
 ## 🚀 Setup and Installation
 
-1.  Clone the repository:
+1.  Clone the repository.
     
