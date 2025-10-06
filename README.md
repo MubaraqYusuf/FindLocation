@@ -20,7 +20,7 @@ This is a simple Android application that demonstrates how to retrieve the devic
 
 ## ⚙️ How it Works
 
-1.  **Permission Check:** When the "Get Location"  बटन is clicked, the app first checks if the `ACCESS_FINE_LOCATION` permission has been granted.
+1.  **Permission Check:** When the "Get Location" is clicked, the app first checks if the `ACCESS_FINE_LOCATION` permission has been granted.
 2.  **Permission Request:** If the permission is not granted, it requests the permission from the user.
 3.  **Location Fetching:** If the permission is granted, the app uses `FusedLocationProviderClient.getLastLocation()` to retrieve the most recent known location of the device.
 4.  **Geocoding:** Once the `Location` object is obtained, `Geocoder.getFromLocation()` is used to get a list of addresses corresponding to the latitude and longitude.
